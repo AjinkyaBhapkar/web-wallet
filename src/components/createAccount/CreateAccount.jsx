@@ -81,7 +81,10 @@ const CreateAccount = ({ phrase }) => {
                   <p className="text-start mx-1 text-slate-500 font-extralight text-xs">
                     Address {key + 1}:
                   </p>
-                  <p className="text-start  py-1  px-2 rounded m-2 bg-slate-700">
+                  <p
+                    sty
+                    className="text-start py-1  px-2 rounded m-2 bg-slate-700 break-all text-xs sm:text-xs md:text-sm lg:text-sm xl:text-sm"
+                  >
                     {w}
                   </p>
                 </div>
