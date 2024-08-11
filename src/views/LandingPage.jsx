@@ -19,7 +19,7 @@ export const LandingPage = () => {
           className=" my-16  "
           onClick={() => router.push("/create-wallet")}
         >
-          Create new wallet
+          Get Started
         </Button>
       </div>
     </div>

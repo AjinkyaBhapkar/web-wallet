@@ -1,3 +1,4 @@
+import CreateWalletPage from "@/views/CreateWalletPage";
 export default function CreateWallet() {
-  return <>Create wallet</>;
+  return <CreateWalletPage />;
 }
